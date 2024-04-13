@@ -1,9 +1,6 @@
 rem Location of download cache
 rem set download_cache_dir=%TEMP%
 
-rem China mirror for downloading Git for Windows installer
-rem set git_mirror=taobao
-
 rem Do not update packages; only download missing files.
 rem CAUTION: may suffer from incomplete downloads.
 rem set no_update=1

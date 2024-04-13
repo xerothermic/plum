@@ -322,11 +322,7 @@ set git_installer_path=%download_cache_dir%\%git_installer%
 if "%no_update%" == "1" if exist "%git_installer_path%" goto run_git_installer
 
 :download_git_installer
-if "%git_mirror%" == "taobao" (
-  set git_download_url_prefix=https://npm.taobao.org/mirrors/git-for-windows/
-) else (
-  set git_download_url_prefix=https://github.com/git-for-windows/git/releases/download/
-)
+set git_download_url_prefix=https://github.com/git-for-windows/git/releases/download/
 set git_download_url=%git_download_url_prefix%v%git_version%.windows%git_release%/%git_installer%
 
 if not defined downloader (

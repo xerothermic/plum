@@ -216,16 +216,14 @@ If [Git for Windows](https://gitforwindows.org/) is installed in the default loc
 the script will use git-bash to install or update packages.
 
 Use the following command to install Git for Windows, if you are new to git.
-In China, it's probably faster to download Git from a local mirror by specifying `git_mirror`.
 
 ```batch
-(set git_mirror=taobao) && rime-install git
+rime-install git
 ```
 
 You can set more options in `rime-install-config.bat` in the same directory as `rime-install.bat`, for example:
 
 ```batch
-set git_mirror=taobao
 set plum_dir=%APPDATA%\plum
 set rime_dir=%APPDATA%\Rime
 set use_plum=1
