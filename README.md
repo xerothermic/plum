@@ -50,7 +50,7 @@ Chinese input methods including those based on modern dialects and historical Ch
 
 ### Phonetic-based input methods
 
-Modern Standard Madarin
+Modern Standard Mandarin
 
   - ℞ [`luna-pinyin`](https://github.com/rime/rime-luna-pinyin): 朙月拼音 / Pinyin input method for Traditional Chinese
   - ℞ [`terra-pinyin`](https://github.com/rime/rime-terra-pinyin): 地球拼音 / School-taught Pinyin, with tone marks
